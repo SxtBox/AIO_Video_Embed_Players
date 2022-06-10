@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Embed Video</title>
+<link rel="shortcut icon" href="https://kodi.al/panel.ico"/>
+<link rel="icon" href="https://kodi.al/panel.ico"/>
+<meta name="description" content="">
+<meta name="description" content="Embed YouTube, Vimeo, Twitch, Facebook, Dailymotion, Streamable, Google Drive, Wistia, Videos">
+<link rel="stylesheet" href="assets/css/main.css">
+<!-- Semantic UI -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Page color syntax (load before semantic items) -->
+<script type="text/javascript" src="assets/js/current-color-syntax.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+<!-- Personal stylesheet -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Header navbar scripts -->
+<script type="text/javascript" src="assets/js/navbar-slider.js"></script>
+
+<!-- Stylesheet for homepage -->
+<!-- Image-zoom -->
+<link href="assets/css/zoom.css" rel="stylesheet">
+<script src="assets/js/image-zoom.js"></script>
+<script src="assets/js/image-zoom-transition.js"></script>
+<!-- Stylesheet for back-to-top scroller -->
+<link rel="stylesheet" href="assets/css/back-to-top.css">
+<!-- Sidebar -->
+<link rel="stylesheet" href="assets/css/sidebar.css">
+<style>
+body,td,th {
+	color: #0F0;
+}
+body {
+	background-color: #000;
+}
+a:link {
+	color: #0FC;
+}
+a:visited {
+	color: #3F6;
+}
+a:hover {
+	color: #09F;
+}
+a:active {
+	color: #009;
+}
+</style>
+</head>
+
+<body>
+<!-- Mobile sidebar -->
+<!-- Button for toggling the sidebar `.sidebar-checkbox` is for regular
+ styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+<!-- Name -->
+<nav style="border-color: #202020" class="sidebar-nav">
+<a class="sidebar-nav-item-header" href="./">Home</a>
+</nav>
+
+<!-- Description -->
+<div style="padding-top: .65rem !important" class="sidebar-item">
+<p>Embed YouTube, Vimeo, Twitch, Facebook, Dailymotion, Streamable, Google Drive, Wistia, Videos
+</p>
+</div>
+<!-- Divider color -->
+<nav style="border-color: #18bc9c" class="sidebar-nav"></nav>
+<!-- Page links -->
+<nav class="sidebar-nav">
+<a class="sidebar-nav-item" href="/">
+<i class="home icon"></i>Home</a>
+<!----/>
+<a class="sidebar-nav-item" href="/about/">
+<i class="user icon"></i>About</a>
+<a class="sidebar-nav-item" href="/projects/">
+<i class="briefcase icon"></i>Projects</a>
+<!---->
+
+<!----/>
+<a class="sidebar-nav-item" href="/blog">
+<i class="newspaper icon"></i>Blog</a>
+<a class="sidebar-nav-item" href="/links">
+<i class="feed icon"></i>Links</a>
+<!---->
+
+<!----/>
+<a class="sidebar-nav-item" href="/options">
+<i class="chart line icon"></i>Option Trading</a>
+<a class="sidebar-nav-item" href="/resume">
+<i class="file alternate outline icon"></i>Resume</a>
+<!---->
+</nav>
+<!-- Divider color -->
+<nav style="border-color: #18bc9c" class="sidebar-nav"></nav>
+<!-- External links -->
+<nav class="sidebar-nav">
+<a class="sidebar-nav-item" href="https://github.com/SxtBox">
+<i class="github icon"></i>Github</a>
+
+<a class="sidebar-nav-item" href="https://www.linkedin.com/">
+<i class="linkedin icon"></i>Linkedin</a>
+
+<a class="sidebar-nav-item" href="https://stackoverflow.com/users/8557703/trc4?tab=profile">
+<i class="stack overflow icon"></i>Stackoverflow</a>
+
+<a class="sidebar-nav-item" href="mailto:trc4@usa.com">
+<i class="mail icon"></i>Email</a>
+</nav>
+<div class="sidebar-item">
+<p>
+&copy; 2022. All rights reserved
+</p>
+</div>
+</div>
+
+<!-- If on landing page, match color to background -->
+<landing-navbar class="navbar-slider">
+<div class="ui fluid borderless inverted container menu">
+
+<a class="ui centered header item" href="./">
+<img class="ui avatar image" src="assets/images/icon.png">Home</a>
+<div class="right aligned item">
+<!----/>
+<a class="aligned item" href="/about">About</a>
+<a class="aligned item" href="/projects">Projects</a>
+<a class="aligned item" href="/options">Option Trading</a>
+<a class="aligned item" href="/resume">Resume</a>
+<!---->
+
+<!----/>
+<a class="aligned item" href="/about/">
+<i class="user icon" style="margin-top:-5px;"></i>About</a>
+<a class="aligned item" href="/projects/">
+<i class="code icon" style="margin-top:-3px;"></i>Projects</a>
+<!---->
+
+<!----/>
+<a class="aligned item" href="/blog">
+<i class="newspaper icon" style="margin-top:-2px;"></i>Blog</a>
+<!---->
+
+<!----/>
+<a class="sidebar-nav-item" href="/links">
+<i class="feed icon"></i>Links</a>
+<!---->
+<!----/>
+<a class="aligned item" href="/options">
+<i class="chart line icon" style="margin-top:-3px;"></i>Options Trading</a>
+<!---->
+<!----/>
+<a class="aligned item" href="/resume">
+<i class="file alternate outline icon" style="margin-top:-4px;"></i>Resume</a>
+<!---->
+</div>
+</div>
+</landing-navbar>
+
+<div class="sidebar-topnav-mobile default"></div>
+<!-- content-cover is the content to shift when toggling the sidebar. We content-cover the content to avoid any CSS collisions with our real content. -->
+<div class="content-cover">
+<main class="page-content" aria-label="Content">
+<div class="wrapper">
+<!-- Controls back-to-top, encase content -->
+<div style="margin-top:17.5px" class="cd-container">
+<!-- IF ON MOBILE MODIFY THIS TO SHIFT INDIVIDUAL PAGES UP -->
+<div class="projects-mobile-screen">
+<!-- IF ON MOBILE DONT TOUCH THIS -->
+<div style="margin-top: 70px; margin-bottom: 15px" class="ui text container">
+<h1>Embed Videos</h1>
+<hr>
+<h3 id="project-overview">Project Overview</h3>
+<p>Embed videos in webpages without a plugin. If you are hosting your webpage using Github pages, you can’t use third party plugins. Here is a method to use <code class="language-plaintext highlighter-rouge" style="background-color: #000; border: 1px dotted lime; color: red;">/Embed_Examples/</code> instead of plugins.</p>
+
+<p>Source: <a href="https://github.com/SxtBox/AIO_Video_Embeds" target="_blank">
+<i class="large github icon"></i>https://github.com/SxtBox/AIO_Video_Embeds</a>
+</p>
+
+<h2 id="demos">Demos</h2>
+<!-- Embed Youtube Videos -->
+<h3 id="youtube">YouTube</h3>
+
+<div class="embed-container">
+<iframe width="700" height="480" src="https://www.youtube.com/embed/Sqc_7fACer0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<!-- Embed Vimeo Videos -->
+<h3 id="vimeo">Vimeo</h3>
+<div class="embed-container">
+<iframe src="https://player.vimeo.com/video/512345103" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+</iframe>
+</div>
+
+<!-- Twitch Javascript Embed Videos -->
+<h3 id="twitch">Twitch JS Live Stream</h3>
+<div class="embed-container">
+<!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "pulsradiocom" // <-- CHANNEL NAME
+  });
+</script>
+</div>
+
+<!-- Twitch Embed Videos -->
+<h3 id="twitch">Twitch Clips</h3>
+<div class="embed-container">
+<!-- --/>
+<iframe
+src="https://clips.twitch.tv/embed?clip=pulsradiocom&autoplay=false"
+height="360"
+width="640"
+frameborder="0"
+scrolling="no"
+allowfullscreen="true">
+</iframe>
+<!-- -->
+
+<iframe src="https://player.twitch.tv/?channel=pulsradiocom&parent=https://www.trc4.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+<!-- clip --/>
+<iframe src="https://clips.twitch.tv/embed?clip={USERNAME_HERE}&amp;parent=https://www.trc4.com" frameborder="0" scrolling="no" height="360" width="640" allowfullscreen="true">
+</iframe>
+<!---->
+</div>
+
+<h3 id="facebook">Facebook</h3>
+<!-- Embed Facebook Videos -->
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async="" defer="" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script>
+<!-- Embed Player Code -->
+<div class="fb-video" data-href="https://www.facebook.com/watch/?v=427530302166770" data-width="auto" data-allowfullscreen="false">
+</div>
+
+<!-- Embed Streamable Videos -->
+<h3 id="streamable">Streamable</h3>
+<div class="embed-container">
+<iframe src="https://streamable.com/s/jr5k9d" height="360" width="640" frameborder="0" scrolling="no" allowfullscreen="true">
+</iframe>
+</div>
+
+<!-- Embed Google Drive Videos -->
+<h3 id="google-drive">Google Drive</h3>
+<div class="embed-container">
+<iframe width="640" height="480" src="https://drive.google.com/file/d/1g8D9QxK8khb5F_BD288D3lVE-5mL_9Mt/preview" frameborder="0" allowfullscreen="">
+</iframe>
+</div>
+
+<!-- Embed Wistia Videos -->
+<h3 id="wistia">Wistia</h3>
+<div class="embed-container">
+<iframe src="https://fast.wistia.net/embed/iframe/26sk4lmiix" title="Nice Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="960" height="540"></iframe>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+</div>
+
+</div>
+</div>
+</div>
+<!-- End -->
+</div>
+</main>
+<!-- Footer layout for every page -->
+
+<footer>
+<!-- IF ON MOBILE MODIFY THIS TO SHIFT INDIVIDUAL ELMENTS -->
+<div class="footer-mobile-screen">
+<div class="footer-background-layout-1">
+<div class="ui centered grid text container footer">
+
+<!-- IF ON MOBILE DONT TOUCH THIS -->
+<h1 style="margin-top: 25px" class="ui main header footer" id="footer-main-header">Contact</h1>
+<div style="margin-top: 5px" class="ui vertically divided grid container">
+<div class="three column stackable row footer">
+<div class="column">
+<h3 class="ui secondary header linkedin" style="margin-left:65px;">
+<i class="linkedin icon mobile-footer"></i>
+<div class="content address-footer">
+Vari Karin
+</div>
+</h3>
+</div>
+
+<div class="column">
+<h3 class="ui secondary header">
+<i class="mail icon mobile-footer"></i>
+<div class="content mail-footer">
+trc4@usa.com
+</div>
+</h3>
+</div>
+
+<div class="column">
+<h3 class="ui secondary header">
+<i class="call icon mobile-footer"></i>
+<div class="content call-footer">
+Your Phone
+</div>
+</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-background-layout-2">
+<div id="footer-navigation-links" class="ui middle aligned centered stackable grid text container">
+<div style="margin-top:35px">
+
+<a style="margin-right:7.5px" href="https://github.com/SxtBox" target="_blank">
+<i class="circular github icon homepage"></i>
+</a>
+
+<a style="margin-right:7.5px; margin-left: 7.5px" href="https://www.linkedin.com/in/SxtBox"
+ target="_blank">
+<i class="circular linkedin icon homepage"></i>
+</a>
+
+<a style="margin-right:7.5px; margin-left: 7.5px" href="https://stackoverflow.com/users/8557703/trc4?tab=profile"
+ target="_blank">
+<i class="circular stack overflow square icon homepage"></i>
+</a>
+
+<a style="margin-left: 7.5px" href="mailto:trc4@usa.com" target="_blank">
+<i class="circular mail outline icon homepage"></i>
+</a>
+
+<br>
+<h4 id="copyright-footer">© 2022 Your Name</h4>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<!-- Controls back-to-top -->
+<a href="#0" class="cd-top">Top</a>
+<!-- End -->
+<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+<script src="assets/js/back-to-top_main.js"></script> <!-- Gem jQuery -->
+<script src="assets/js/sidebar.js"></script> <!-- Sidebar -->
+</body>
+</html>
+<!-- Ensure page refreshes to top of page -->
+<script>
+window.onbeforeunload = function () {
+window.scrollTo(0, 0);
+}
+</script>
