@@ -1,0 +1,260 @@
+﻿
+<html>
+<head>
+<title>Stream - Balkan TV</title>
+<link href="http://pxstream.tv/skins-jw/bin/skins/tube-base64.min.css" rel="stylesheet" type="text/css" />
+<script src="//api.peer5.com/peer5.js?id=vql06tzx69hfx3p6t2cd"></script>
+<script src="//api.peer5.com/peer5.jwplayer7.plugin.js"></script>
+<!-- jwplayer7 script and license key-->
+<script src="//ssl.p.jwpcdn.com/player/v/7.12.4/jwplayer.js"></script>
+<script src="js/jquery-1.11.4.min.js"></script>
+<script>jwplayer.key = 'fJsEYckNwLO/HSFA2x/qnKU6OYkl98O+M+OA9q/uJPU=';</script>
+</head>
+<body>
+<div id="player"></div>
+
+<script>
+var player = jwplayer('player').setup({
+playlist: [{
+file: window.atob('aHR0cHM6Ly9iaXRjZG4ta3JvbmVoaXQuYml0bW92aW4uY29tL3YyL2hscy9jaHVua2xpc3RfYjMxMjgwMDAubTN1OA=='),
+},{
+}],
+			
+					
+width: '100%',
+height: '100%',
+primary: "html5",
+//plugins: {
+//"jwplayer/newsticker/newsticker.js": {
+//"position": "top",
+//"scrollspeed": "3",
+//"textcolor": "#FFFFFF",
+//"backgroundcolor": "#282828",
+//"scrolldirection": "left",
+//"text": ""
+//}
+//},
+autostart: true,
+abouttext: "Balkan Televizija",
+aboutlink: "http://balkantelevizija.net",
+sharing: {
+link: "http://balkantelevizija.net"
+},			
+					
+								
+skin: {
+name: "glow"
+},
+		
+//logo: {
+//file: 'logo/logo.png',
+//position: 'bottom-right',
+//margin: '-30',
+//hide: 'false'
+//},	
+		
+});
+			
+var t;
+var timer=1;
+jwplayer().onIdle(function() {
+t=setTimeout("jwplayer().play()",timer);
+});			
+</script>
+
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adblock Detector</title>
+  
+
+  
+
+   <style>
+body {
+    background-color: #33b5b0;
+}
+</style>
+  
+  
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 152px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+</style>
+  
+  
+<style>
+
+#popup-text {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    width: 900px;
+    height: 200px;
+    top: 50%;
+    left: 50%;	
+    margin-left: -450px;
+    margin-top :-100px;
+}
+#popup-text h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#popup-text h2 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#popup-text button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    border: 3px solid white;
+    color: white;
+    background-color: #00BFFF;
+}
+
+</style>
+
+  <style>
+  
+
+#popup{
+  position: fixed!important;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#33b5b0;
+  opacity:1.8;
+  display:block;
+}
+
+
+  </style>
+  
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+  
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+<center>
+   <div id="popup-text">
+  <div id="popup">
+
+            <h1>Molimo iskljucite vas Adblock!</h1>
+                    <h2>Otkrili smo da koristite Adblock . Morate ga deaktivirati kako bi koristili ovu web stranicu .</h2>
+                    <button class="button button3" onclick="myFunction()">Osvježi</button>
+
+  </div>
+  <center>
+
+  
+
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://sitexw.fr/fuckadblock/fuckadblock.js'></script>
+
+  
+
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+
+  
+
+    <script>
+	
+	// Function called if AdBlock is not detected
+function adBlockNotDetected() {	  document.getElementById("popup").style.visibility = "hidden";
+}
+// Function called if AdBlock is detected
+function adBlockDetected() {	document.getElementById("popup").style.visibility = "visible"; 
+
+}
+ if(typeof fuckAdBlock === 'undefined') {
+	adBlockDetected();
+} else {
+fuckAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
+}
+	
+function myFunction() {
+    location.reload();
+}
+	
+	</script>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
