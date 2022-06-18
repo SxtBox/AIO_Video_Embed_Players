@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://rss.jwpcdn.com/">
+<!-- Limited Playlist Parse Only 10 Items -->
+<channel>
+<title>Top For Top TV AIO APIS 1.0-DEV Multi</title>
+<description>Albdroid TEST APIS</description>
+<provider_name>Top For Top TV Streaming API (Client IP: 198.16.66.101 Proxy: 5.68.117.148 Date: Saturday, 30 April 2022 - 22:23:48)</provider_name>
+<jwplayer:kind>DYNAMIC</jwplayer:kind>
+<jwplayer:feedid></jwplayer:feedid>
+<jwplayer:feed_instance_id></jwplayer:feed_instance_id>
+<jwplayer:link rel="first" href=""/>
+<jwplayer:link rel="last" href=""/>
+
+<item>
+<stream_id>1</stream_id>
+<title>Rina ft Sin Boy - Gigi</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Rina ft Sin Boy - Gigi</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://b.top4top.io/m_2309boxl17.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://b.top4top.io/m_2309boxl17.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://b.top4top.io/m_2309boxl17.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>2</stream_id>
+<title>Rigersa ft Metro - Pa Ty</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Rigersa ft Metro - Pa Ty</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://a.top4top.io/m_23094h1vy6.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://a.top4top.io/m_23094h1vy6.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://a.top4top.io/m_23094h1vy6.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>3</stream_id>
+<title>Numen - Merre (Remix)</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Numen - Merre (Remix)</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://j.top4top.io/m_2309crjuv3.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://j.top4top.io/m_2309crjuv3.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://j.top4top.io/m_2309crjuv3.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>4</stream_id>
+<title>Nehat Istrefi - Party in Albania</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Nehat Istrefi - Party in Albania</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://l.top4top.io/m_2309gq3m39.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://l.top4top.io/m_2309gq3m39.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://l.top4top.io/m_2309gq3m39.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>5</stream_id>
+<title>Mozzik - Auf Wiedersehen</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Mozzik - Auf Wiedersehen</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://h.top4top.io/m_2309eamfx7.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://h.top4top.io/m_2309eamfx7.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://h.top4top.io/m_2309eamfx7.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>6</stream_id>
+<title>Marin - Shota</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Marin - Shota</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://e.top4top.io/m_2309d7chd5.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://e.top4top.io/m_2309d7chd5.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://e.top4top.io/m_2309d7chd5.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>7</stream_id>
+<title>Luana ft Blunt ft Real - Luanet</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Luana ft Blunt ft Real - Luanet</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://k.top4top.io/m_2309k6jzc1.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://k.top4top.io/m_2309k6jzc1.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://k.top4top.io/m_2309k6jzc1.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>8</stream_id>
+<title>FINEM ft SOLO - KPT 2</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>FINEM ft SOLO - KPT 2</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://c.top4top.io/m_23092dw1j10.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://c.top4top.io/m_23092dw1j10.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://c.top4top.io/m_23092dw1j10.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>9</stream_id>
+<title>Endrit Mumajesi ft Elinel - Per Tradhetine</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Endrit Mumajesi ft Elinel - Per Tradhetine</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://f.top4top.io/m_2309gy3p03.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://f.top4top.io/m_2309gy3p03.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://f.top4top.io/m_2309gy3p03.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+<item>
+<stream_id>10</stream_id>
+<title>Endrit Mumajesi ft Dafina Zeqiri - Pa Ty</title>
+<link>https://paidcodes.albdroid.al</link>
+<description>Endrit Mumajesi ft Dafina Zeqiri - Pa Ty</description>
+<pubDate>Saturday, 30 April 2022 - 00:00:56</pubDate>
+<guid isPermaLink="false"></guid>
+<enclosure url="https://d.top4top.io/m_2309z04di2.mp4" type="video/mp4" />
+<jwplayer:feedid></jwplayer:feedid>
+<media:group>
+<media:content url="https://d.top4top.io/m_2309z04di2.mp4" medium="video" type="video/mp4" width="1280" height="720" label="HD" default="true" />
+<media:content url="https://d.top4top.io/m_2309z04di2.mp4" medium="video" type="video/mp4" width="960" height="540" label="SD" />
+<media:thumbnail url="https://png.kodi.al/tv/albdroid/black.png" width="720" />
+<media:keywords></media:keywords>
+</media:group>
+</item>
+
+</channel>
+</rss>
