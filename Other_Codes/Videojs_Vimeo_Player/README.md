@@ -1,3 +1,3 @@
 # Videojs Vimeo Player
 
-![Logo](https://raw.githubusercontent.com/SxtBox/Videojs_Vimeo_Player/main/Screenshot.png?raw=true)
+![Logo](https://raw.githubusercontent.com/SxtBox/AIO_Video_Players/Albdroid/Other_Codes/Videojs_Vimeo_Player/Screenshot.png?raw=true)
