@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Videojs Vimeo</title>
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="icon" href="favicon.ico"/>
+  <link href="assets/videojs/video-js.css" rel="stylesheet">
+</head>
+<style>
+  body {
+    font-family: "Lato", sans-serif;
+    margin:50px;
+  }
+
+  .mySlides {
+    display: none
+  }
+
+  /* Show the controls (hidden at the start by default) */
+
+  .video-js .vjs-control-bar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /* Make little prettier */
+  body {
+    background: #222;
+    text-align: center;
+    color: #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: radial-gradient(#333, hsl(200, 30%, 6%));
+  }
+
+  a,
+  a:hover,
+  a:visited {
+    color: #76DAFF;
+  }
+
+.video-js {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+/* z-index: -100; */
+/* background: url(file.jpg) no-repeat; */
+background-color: black;
+background-size: cover;
+z-index:99999;
+}
+</style>
+<body>
+<video id="vid1"
+class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" width="640" height="264"
+data-setup='{
+"techOrder": ["vimeo"],
+"sources": [{ "type": "video/vimeo",
+"src": "https://vimeo.com/512345103"}],
+"vimeo": { "color": "#0F0"}
+}'
+>
+</video>
+<script src="assets/videojs/video.js"></script>
+<script src="assets/vimeo/videojs_vimeo.js"></script>
+</body>
+</html>
